@@ -9,16 +9,12 @@
 </head>
 <body style="background-image: url(https://c4.wallpaperflare.com/wallpaper/394/477/194/animal-cat-and-dog-baby-animal-cat-wallpaper-preview.jpg" >
 	<div class="topnav">
-  
-  <a href="#type">Animals Type</a>
+
   
   <input type="text" placeholder="Search..">
 </div>
-<div class="dropdown">
+
   
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">Cats</a>
-    <a href="#">Dogs</a>
     
   </div>
 </div>
