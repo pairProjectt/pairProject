@@ -5,7 +5,9 @@ h1{
 	text-align: center
 }
 a {
-	color: #ff9900;
+	color: black;
 }
-p { text-indent: 50px 
+p { text-indent: 50px ;
+	color : #8B4513;
+
  }
