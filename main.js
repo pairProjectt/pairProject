@@ -1,4 +1,4 @@
-var dog =[
+var dogs =[
  {
 	breed:'German Shepherd',
 	name:'Cesar',
@@ -34,7 +34,7 @@ var dog =[
 
 
 
-var cat =[
+var cats =[
      {
 	name:'Blondi',
 	age:'2years'
@@ -62,3 +62,28 @@ var cat =[
 	src:"./images/cat5.jpg"	
     }
     ]
+
+
+   $( "a" ).click(function( event ) {
+ for(var i=0;i<dogs.length;i++){
+ 	if (dogs[i].model === event.target.id){
+ 		var $dog=$(`<div><p> model ${dogs[i].model}</p> <img src=${dogs[i].src} /> </div>`)
+ 		
+ 	}
+ 	$('#dog').html($dog)
+
+    }
+ });
+
+
+
+    $( "a" ).click(function( event ) {
+ for(var i=0;i<cats.length;i++){
+ 	if (cats[i].model === event.target.id){
+ 		var $cats=$(`<div><p> model ${cats[i].model}</p> <img src=${cats[i].src} /> </div>`)
+ 		
+ 	}
+ 	$('#cat').html($cat)
+
+    }
+ });
