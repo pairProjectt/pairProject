@@ -29,5 +29,53 @@ p { text-indent: 50px
 
 
 
+.btn {
+  background-color: grey;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+.rigen {
+		font-family : cursive;
+	color : black;
+	font-size: 25px
 
+}
+.blaki {
+		font-family : cursive;
+	color : black;
+	font-size: 25px
 
+}
+.cesar {
+		font-family : cursive;
+	color : black;
+	font-size: 25px
+
+}
+.crowdy {
+		font-family : cursive;
+	color : black;
+	font-size: 25px
+
+}
+.starski {
+		font-family : cursive;
+	color : black;
+	font-size: 25px
+
+}
+
+.clas{
+	font-family : cursive;
+	color : black;
+	font-size: 25px
+
+}
+
+#choose{
+	font-family : cursive;
+	color : black;
+	font-size: 50px
