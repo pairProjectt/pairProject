@@ -20,7 +20,7 @@ username2:'med amine' , password : 111111
 
 var users = []
 var retrieve = localStorage.getItem("users")
-users=JSON.parse (retrieve)
+users1=JSON.parse (retrieve)
 function signUp (username,password,email){
 	var obj = {}
 	obj.username = username
@@ -33,31 +33,43 @@ function signUp (username,password,email){
 	return obj
 }
 
-window.onload = randomPic;
-var myImage=newArray ("C:\Users\sahar\OneDrive\Bureau\pairProject-1\images\gettyimages-172050389_global-usage_0046.jpg","C:\Users\sahar\OneDrive\Bureau\pairProject-1\images\animal-sitting-animals-inside.jpg","C:\Users\sahar\OneDrive\Bureau\pairProject-1\images\10-Best-Names-For-Black-Cats.jpg")
-function randomPic(){
-	var randomNum = (Math.floor(Math.random)*myImage.length)
-	document.getElementByClassName("column").src = myImage[randomNum]
-	src = 
-
+randomImage = function(array){
+var randomImage = Math.floor(Math.random()*array.length)
+return array[randomImage]
 }
+var fixImage=null;
+function addpets(){
+     fixImage=randomImage(pets)
+$("#pets").attr("src",fixImage.image)+$("#name").text(fixImage.catName)+$( "#para" ).text(fixImage.age)
+holder = fixImage;
+}
+
+
  
 
 
 
 
+var userss = [
+{user1:'sahar', password1 : 123456,
+user2:'med amine' , password2 : 111111
+}
+]
 
  function login ( username,password){
- 	for (var i = 0; i<users.length; i++){
- 		debugger
- 		console.log(users[i].name)
- 		if (username === users[i].name && password === users[i].password){
+
+
+ 	for (var i = 0; i<users1.length; i++){
+ 		// debugger
+
+ 		console.log(userss[i].name)
+ 		if (username === userss[i].users1 && password === userss[i].password1){
  			alert ('welcome')
 
- 			// window.location.replace("file:///C:/Users/sahar/OneDrive/Bureau/pairProject-1/page2.html")
+ 			
  	}else {
  		return location.reload()
- 		function.hide ()
+ 	
  	}
  }
 }

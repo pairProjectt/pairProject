@@ -1,7 +1,7 @@
 
 
 h1{
-	color:#ff6600;
+	color: #0000CD;
 	text-align: center
 }
 a {
@@ -9,10 +9,12 @@ a {
 }
 p { text-indent: 50px ;
 	color : #8B4513;
+	font-size: 30px
 
  }
  h5 {
  	color : blue;
+ 	font-size: 20px
  }
  button {
   background-color: #4CAF50; /* Green */
