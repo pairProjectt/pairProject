@@ -64,13 +64,13 @@ var cats =[
     ]
 
 
-   $( "a" ).click(function( event ) {
+   $( "#dogg" ).click(function( event ) {
  for(var i=0;i<dogs.length;i++){
  	if (dogs[i].model === event.target.id){
  		var $dog=$(`<div><p> model ${dogs[i].model}</p> <img src=${dogs[i].src} /> </div>`)
  		
  	}
- 	$('#dog').html($dog)
+ 	$('#dogg').html($dog)
 
     }
  });
