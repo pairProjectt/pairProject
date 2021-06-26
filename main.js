@@ -1,3 +1,4 @@
+
 var dogs =[
  {	breed:'German Shepherd',
 	name:'Cesar',
@@ -94,6 +95,7 @@ $( ".btn" ).click(function( event ) {
 // document.getElementById(" id").setAttribute("src", randomImage[Math.round(Math.random() *3)])
 
 
+
 var users1 = [
 {username1:'sahar', password : 123456,
 username2:'med amine' , password : 111111
@@ -120,16 +122,6 @@ function signUp (username,password,email){
 	return obj
 }
 
-randomImage = function(array){
-var randomImage = Math.floor(Math.random()*array.length)
-return array[randomImage]
-}
-var fixImage=null;
-function addpets(){
-     fixImage=randomImage(pets)
-$("#pets").attr("src",fixImage.image)+$("#name").text(fixImage.catName)+$( "#para" ).text(fixImage.age)
-holder = fixImage;
-}
 
 var userss = [
 {user1:'sahar', password1 : 123456,
@@ -140,12 +132,12 @@ user2:'med amine' , password2 : 111111
  function login ( username,password){
 
 
- 	for (var i = 0; i<users1.length; i++){
+ 	for (var i = 0; i<userss.length; i++){
  		// debugger
 
  		console.log(userss[i].name)
  		if (username === userss[i].users1 && password === userss[i].password1){
- 			alert ('welcome')
+ 			alert ('congrats')
 
  			
  	}else {
