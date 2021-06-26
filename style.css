@@ -1,11 +1,28 @@
 
 
 h1{
-	color:#ff6600;
+	color: #0000CD;
 	text-align: center
 }
 a {
-	color: #ff9900;
+	color: black;
 }
-p { text-indent: 50px 
+p { text-indent: 50px ;
+	color : #8B4513;
+	font-size: 30px
+
  }
+ h5 {
+ 	color : blue;
+ 	font-size: 20px
+ }
+ button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
